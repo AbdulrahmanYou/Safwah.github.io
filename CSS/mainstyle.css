@@ -2,12 +2,39 @@
 .amiri{font-family: 'Amiri', serif;}
 body{
     background-color: rgb(203, 224, 224);
-    background-image:url(img/safwahLogo.jpg);
+    /* background-image:url(img/safwahLogo.jpg);
     background-repeat: repeat;
-    background-attachment:fixed;
+    background-attachment:fixed; */
 }
 @media (min-width: 768px) {
     .display-4 {
       font-size: 3rem;
     }
   }
+
+.navitems{
+  font-size:larger;
+  color: gray;
+}
+.navitems:hover{
+  color: black;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+color: #7f7b78;
+}
